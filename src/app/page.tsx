@@ -21,8 +21,25 @@ const HomePage: FC = () => {
         </div>
       </div>
       <div className="restrict-width">
-        <h2>Please don't take action!</h2>
-        <p>We want to keep the status quo, so please don't take any action.</p>
+        <section className="mb-8">
+          <h2>Please don't take action!</h2>
+          <p>
+            We want to keep the status quo, so please don't take any action.
+          </p>
+        </section>
+
+        <section className="my-8">
+          <h2>We cave under zero pressure!</h2>
+          <p>
+            We put the I in DEI when it comes to giving everyone wins, including
+            Republicans on deciding issues that matter to our voters!
+          </p>
+        </section>
+
+        <section className="my-8">
+          <h2>Israel!</h2>
+          <p>Nathan-and-yahoo impressed.</p>
+        </section>
       </div>
     </>
   );
