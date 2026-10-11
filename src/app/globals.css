@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --background: #fff;
-  --foreground: #000;
-  font-size: 24px;
-}
-
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -22,6 +16,12 @@
 }
 
 @layer base {
+  :root {
+    --background: #fff;
+    --foreground: #000;
+    @apply text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px] xl:text-[22px];
+  }
+
   body {
     background: var(--background);
     color: var(--foreground);
@@ -72,7 +72,11 @@
     @apply fixed left-0 top-0 flex justify-between items-center h-20 p-4 z-40 dark:bg-zinc-900 bg-gray-100 w-full;
   }
 
-  .content {
+  .restrict-width {
     @apply max-w-5xl mx-auto p-4;
   }
+}
+
+@utility break-word {
+  word-break: break-word;
 }
