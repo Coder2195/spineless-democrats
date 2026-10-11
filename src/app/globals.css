@@ -69,7 +69,7 @@
   }
 
   #navbar {
-    @apply fixed left-0 top-0 flex justify-between items-center h-20 p-4 z-40 dark:bg-zinc-900 bg-gray-100 w-full;
+    @apply fixed left-0 top-0 flex justify-between items-center h-20 p-4 z-40 dark:bg-zinc-900 bg-gray-100 w-full gap-2;
   }
 
   .restrict-width {

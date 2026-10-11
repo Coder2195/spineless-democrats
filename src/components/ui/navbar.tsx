@@ -11,6 +11,7 @@ const Navbar: FC = () => {
         height={64}
         className="w-12 h-12"
       />
+      This is satire & 1st amendment free speech, classed under fair use.
     </nav>
   );
 };
