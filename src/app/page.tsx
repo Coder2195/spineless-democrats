@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { FC } from "react";
 import Spineless from "@/components/home/spineless";
 
@@ -34,6 +35,15 @@ const HomePage: FC = () => {
             We put the I in DEI when it comes to giving everyone wins, including
             Republicans on deciding issues that matter to our voters!
           </p>
+          <div className="py-4">
+            <Image
+              src="/criticisms/democrats-cave.avif"
+              width={500}
+              height={250}
+              alt="Democrats Cave"
+              className="rotate-4 rounded-lg shadow-2xl shadow-primary"
+            />
+          </div>
         </section>
 
         <section className="my-8">
