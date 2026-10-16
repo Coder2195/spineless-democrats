@@ -7,9 +7,9 @@ const Navbar: FC = () => {
       <Image
         src="/icon.svg"
         alt="Logo"
-        width={64}
-        height={64}
-        className="w-12 h-12"
+        width={36}
+        height={36}
+        className="w-10 h-10"
       />
       This is satire & 1st amendment free speech, classed under fair use.
     </nav>
