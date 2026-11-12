@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Schoolbell } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import Disclaimer from "@/components/ui/disclaimer";
 import Navbar from "@/components/ui/navbar";
 
 export const metadata: Metadata = {
@@ -27,12 +28,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${hexFranklin.variable} ${schoolbell.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <Navbar />
         <header>
-          <Navbar />
+          <Disclaimer />
         </header>
-
         <main>{children}</main>
-
         <footer></footer>
       </body>
     </html>
